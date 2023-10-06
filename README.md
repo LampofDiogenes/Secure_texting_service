@@ -1,10 +1,13 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This Project is going to be a program that is able to send, receive, and then show messages to users.
+The project is meant to be used by multiple people. The data that the users send to each other will be sent locally, and is meant to be a secure peer-to-peer way to communicate to others. 
 
 {Provide a description the networking program that you wrote. Describe how to use your software.  If you did Client/Server, then you will need to describe how to start both.}
 
-{Describe your purpose for writing this software.}
+Originally, I wanted this software to be something that could be imbedded within games, so that you could have a log of the communications even when you switched games. Ideally, the software will read what is happenening in the text chat, and then be able to keep a record of what is happenening so that you do not need to worry about losing all the chats when you switch lobbies or switch games.
+
+But, I think that I may be moving this to just a secure way to communicate to individuals on the web. The idea is that each person has a code to identify themselves, and then people can send messages to that person. However, the reciever has to accept the contact before they can communicate. this would ideally make it harder for spam messages to work.
 
 {Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (you will need to show two pieces of software running and communicating with each other) and a walkthrough of the code.}
 
