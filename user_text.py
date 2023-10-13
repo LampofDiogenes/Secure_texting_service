@@ -8,11 +8,21 @@
 # if peer-to-peer:
 # program must allow other computers to store encrypted data locally on the device
 # program must get the computer to send data when requested
+import socketserver
 
-x = ""
+class SocketServer:
+    # makes the device continuously serve requests
+    socketserver.ServerForever(1)
 
 
 
-def SaveString():
-    3
+
+# user needs to do some specific action that lets them no longer take requests
+userAction = bool
+if socketserver.timeout(5):
+    print("Server has Timed out. Restart to continue chatting")
+    socketserver.server_close()
+
+
+
 
