@@ -30,8 +30,8 @@ But, I think that I may be moving this to just a secure way to communicate to in
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Tutorial Gateway: Overriding in Python]((https://www.tutorialgateway.org/method-overriding-in-python/))
+* [Learn by Example : Python Inheritance]((https://www.learnbyexample.org/python-inheritance/))
 
 # Future Work
 
