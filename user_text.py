@@ -12,6 +12,7 @@
     # program must force users to create a unique usnername, or else assign it to the user
 
 import socketserver
+import socket
 
 
 class SocketServer:
