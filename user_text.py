@@ -20,7 +20,7 @@ class SocketServer:
     def handle():
         ''
 
-
+# called every time that a user wants to do something
 class BaseRequestHandler(SocketServer):
     # for some reason I need this.
     ''
