@@ -19,16 +19,19 @@ import socket
 # AF_INET is just something that I need, and SOCK_stream is TCP protocol
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-port = 12345
+port = 80
 
-random_address = "https://pubchem.ncbi.nlm.nih.gov/compound/Histamine"
+random_address = "localhost"
 
 try:
     # finding an IP to host a connection
     host_ip = socket.gethostbyname(random_address)
+    print()
+    print('IP address found')
 except:
     # telling developer what went wrong
-    print("listening failed")
+    print()
+    print("failed to find IP address")
 
 try: 
     # connecting to found IP address
@@ -40,6 +43,29 @@ except:
 try:
     client_socket.close()
     print("successfully left server")
+    print()
 except:
     print('Error leaving server')
+    print()
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+print()
