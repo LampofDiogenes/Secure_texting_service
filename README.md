@@ -32,10 +32,15 @@ But, I think that I may be moving this to just a secure way to communicate to in
 {Make a list of websites that you found helpful in this project}
 * [Tutorial Gateway: Overriding in Python]((https://www.tutorialgateway.org/method-overriding-in-python/))
 * [Learn by Example : Python Inheritance]((https://www.learnbyexample.org/python-inheritance/))
+* [Geeks4Geeks: Socket Programming]((https://www.geeksforgeeks.org/socket-programming-python/))
+* [Real Python: Socket Programming in Python (Guide)]((https://realpython.com/python-sockets/))
 
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Item 1: the code needs to actually work
+* Item 2: the user needs to be able to upload and be able to see text
+* Item 3: I need to create a UI
+* Item 4: the client needs to be able to go to a IP address where the server can listen
+* Item 5: after the server is in a place where they can listen, they need to ACTUALLY CONNECT
+* 
